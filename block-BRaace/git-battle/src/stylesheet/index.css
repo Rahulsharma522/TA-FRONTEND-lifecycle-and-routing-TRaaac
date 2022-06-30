@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerlang{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lang{
+    width: 23%;
+    background-color: #EBEBEB;
+    margin: 10px;
+    padding: 20px 0px;
+    border-radius: 4px;
+}
+figure{
+    width: 60%;
+}
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+.alllang{
+  
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.langfeature{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+small{
+    margin: 20px 0px;
+    font-size: 36px;
+}
+h3{
+    color: #BB342C;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.name{
+    font-weight: 800;
+    font-size: 20px;
+}
+.fa-user{
+    color: #FDBF74;
+    margin-right: 20px;
+}
+.fa-star{
+    color: #FED838;
+    margin-right: 20px;
+}
+.fa-code-branch{
+    color: #81C3F5;
+    margin-right: 24px;
+}
+.fa-exclamation-triangle{
+    color: #F18A93;
+    margin-right: 20px;
+    
+}
+.number{
+    font-size: 20px;
+    margin: 14px 0px;
+    font-weight: 500;
+   
+}
+.numbersmall{
+    margin-left: 4px;
+    font-size: 20px; 
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.langbtn{
+    margin: 0px 10px;
+    background-color: transparent;
+    border: 0 ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fa-user-friends{
+    color: #FDBF74;
+    font-size: 150px;
+}
+.fa-fighter-jet{
+    color: silver;
+    font-size: 150px;
+}
+.fa-trophy{
+    color: #FED838;
+    font-size: 150px;
+}
+.instruction{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.insticon{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #EBEBEB;
+    padding: 20px;
+    border-radius: 4px;
+}
+h4{
+    text-align: center;
+    margin: 30px 0px;
+    font-size:40px;
+    font-weight: 100;
+}
+h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size:40px;
+    font-weight: 100;
+}
+h6{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.playerentry{
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.playerimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.entryimage{
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 4px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+form{
+    /* width: 30%; */
+    margin-top: 30px;
+}
+input{
+    margin-top: 10px;
+   height: 30px;
+   /* width: 50%; */
+   border: 1px solid silver;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.submitbtn{
+    margin-left: 10px;
+    height: 36px;
+    background-color: #F2F2F2;
+    border: 0;
+    padding: 10px 30px;
+    color:silver;
+    border-radius: 4px;
+}
+.battlebtnblock{
+    text-align: center;
+}
+.battlebtn{
+
+    background-color: black;
+    color: white;
+    padding: 16px 40px;
+    font-size: 20px;
+}
+.player{
+    font-size: 20px;
+}
+.userdetail{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.userprofile{
+    width: 25%;
+    background-color: #EBEBEB;
+
+}
+.userpro{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-users{
+    color: #78B3E1;
+    margin-right: 20px;
+}
+.fa-user-plus{
+    color: #55B75F;
+    margin-right: 20px;
+}
+.fa-code{
+    color: #3B4C55;
+    margin-right: 20px;
+}
+.score{
+    margin: 20px 0px;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.resetbtnblock{
+    text-align: center;
+    margin-top: 30px;  
+     
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.red{
+    color: #BB342C;
+   
+}
+.nav{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.fa-lightbulb{
+    color: #FED838;
+    font-size: 20px;
+}
