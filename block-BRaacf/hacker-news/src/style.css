@@ -1,0 +1,126 @@
+::placeholder {
+    color: #c6c9ce;
+    font-size: 14px;
+  }
+  
+  #hacker-header {
+    display: grid;
+    position: fixed;
+    width: 100%;
+    grid-template-columns: 10% 20% 70%;
+    background-color: #FF742B;
+    height: 60px;
+  }
+  
+  #hacker-header-mobile {
+    display: none;
+  }
+  
+  #hacker-logo {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    width: 48px;
+    height: 48px;
+    margin: auto 10px auto 10px;
+  }
+  
+  #search-hacker-news {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 0.8em;
+  }
+  
+  #search-hacker-news p {
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Verdana';
+  }
+  
+  #hacker-textbox {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    height: 2.2em;
+    margin: auto 100px auto 0;
+    padding-left: 40px;
+    font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", "sans-serif";
+    font-size: 1em;
+    border: 0px solid transparent;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwd9t9-J2wwy7hv6S_V95qXYCCN8cMpolIiOjQomirSZ1TtBjAqA');
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+    background-size: 20px 20px;
+  }
+  
+  #hacker-textbox:focus {
+    outline: none;
+  }
+  
+  .component-container {
+    display: grid;
+    grid-row-gap: 0px;
+    padding: 5px 10px 5px 10px;
+    background-color:#f7f8f9;
+    border-bottom: 1px solid #e3e4e5;
+  }
+  
+  .post-name, .post-stat {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .component-container:nth-child(1) {
+    padding-top: 75px;
+  }
+  
+  .component-container:nth-last-child(1) {
+    padding-bottom: 10px;
+    border-bottom: 0px solid transparent;
+  }
+  
+  .post-info {
+    display: flex;
+    height: 20px;
+    padding-top: 5px;
+  }
+  
+  .post-name, .post-info p, .post-info a {
+    margin: 0;
+    font-family: "Verdana";
+  }
+  
+  .post-stat, .post-name {
+    padding-left: 5px;
+  }
+  
+  .post-stat {
+    font-size: 11px;
+    color: grey;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    #hacker-header-mobile {
+      display: grid;
+      position: fixed;
+      width: 100%;
+      grid-template-columns: 10% 90%;
+      background-color: #FF742B;
+      height: 60px;
+    }
+    #hacker-header {
+      display: none;
+    }
+    #hacker-textbox {
+      grid-column-start: 1;
+      grid-column-end: 10;
+      margin: auto 100px auto 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    #hacker-app, #hacker-header {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
