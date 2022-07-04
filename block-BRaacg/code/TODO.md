@@ -10,7 +10,7 @@ Using the links given below create a quiz application. Go through the documentat
 - [API DOCS](https://opentdb.com/api_config.php)
 
 ### What to do
-
+ 
 - The quiz app will first display a collection of categories
 - Get the list of all categories using this link (https://opentdb.com/api_category.php)
 - Let user select a category from the list above
